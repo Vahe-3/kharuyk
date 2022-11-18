@@ -19,6 +19,7 @@ const Header = () => {
                     <FacebookOutlined style={{ fontSize: '30px', color: '#fff' }} />
                     <InstagramOutlined style={{ fontSize: '30px', color: '#fff' }} />
                     <MailOutlined style={{ fontSize: '30px', color: '#fff' }} />
+                    <a ><img style={{width:30, color: "white"}} src={"/telegram.svg"} /></a>
                 </div>
             </div>
         </header>
