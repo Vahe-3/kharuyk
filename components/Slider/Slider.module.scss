@@ -1,0 +1,30 @@
+.slider {
+
+    .points {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        div {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: rgb(176, 176, 176);
+        }
+
+        .active {
+            background-color: black;
+        }
+    }
+
+    .image {
+        width: 100%;
+        height: 760px;
+        background-size: contain;
+        transition: opacity 0.5s ease-in-out;
+        
+
+       
+    }
+
+}
+
